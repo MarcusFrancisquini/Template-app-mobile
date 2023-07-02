@@ -6,4 +6,5 @@
 
 🚨 O aplicativo <b>ainda</b> não existe! 
 
-🖥 Veja o template aqui -> <a href="">COLOCAR LINK AQUI</a>
+🖥 Veja o template aqui -> <a href="https://marcusfrancisquini.github.io/RPG-Guide/">marcusfrancisquini.github.io/RPG-Guide</a>
+
