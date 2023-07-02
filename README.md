@@ -8,3 +8,10 @@
 
 🖥 Veja o template aqui -> <a href="https://marcusfrancisquini.github.io/RPG-Guide/">marcusfrancisquini.github.io/RPG-Guide</a>
 
+<br>
+<br>
+
+<div align="center">
+ <img src="img/site-cell.png" width=20%>
+ <img src="img/site-pc.png" width=60% align="left">
+</div>
