@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG GUIDE, your simple guide to RPGs</title>
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css"> 
+    <!-- font awesome 6 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body id="body">
+    
+
+    <!-- Navegação -->
+    <header>
+        <img src="img/Logo.png" alt="Logo"> <!-- logo -->
+        <nav id="navbar">
+            <button id="btn-mobile"> <!-- menu mobile -->
+                <span id="btn-icon"></span>
+            </button> 
+            <ul id="nav-menu" class="menu-nav"> <!-- itens -->
+                <li class="item1"><a href="#">Home</a></li>
+                <li class="item2"><a href="#about-section">About</a></li>
+                <li class="item3" id="download"><a href="#download-section">Download</a></li>
+                <li class="item4"><a href="#contact-section">Contact Us</a></li>
+            </ul>
+        </nav>
+        <a href="#download-section"><button class="btn-nav">Download Now</button></a> <!-- botão -->
+    </header>
+
+
+    <!-- Apresentação do App -->
+    <main class="apresentacao">
+        <div class="app-cont"> <!-- all -->
+            <div class="app-text"> <!-- parágrafos -->
+                <p class="first">Lorem ipsum dolor, sit amet cauloyrs rour fa consectetur <strong id="first-strong">Lorem</strong>  adipisicing elit. Ut, aspernatur assumenda !</p>
+                <p class="others">Lorem ipsum !</p>
+                <p class="others">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium <strong> Sit amet</strong> labore rem impedit rerum saepe porro asperiores optio, ea aut sunt nostrum illum ipsum dolorem, ex a <strong> Sit amet</strong> facere dolor minima repellendus! ex a facere dolor minima adipisicing elit rourri.</p>
+                <p class="others">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, reiciendis similique <span>ipsum</span>, <span>ipsum</span>, <span>ipsum</span> and <span>ipsum</span> perferendis voluptatem autem quidem! Iusto officiis ad dicta quo, ullam laborum quos accusantium ipsa quae ex ducimus? ullam quos sit ! </p>
+            </div>
+            <div class="img-cont"> <!-- imagem -->
+                <img src="img/app-cell.png" alt="App cell">
+            </div>
+        </div>
+    </main>
+
+
+    <!-- About -->
+    <section class="about" id="about-section" data-animacao="left"> <!-- all -->
+        <div class="about-text"> <!-- textos -->
+            <h1><span>"</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi tempore consectetur <span>"</span></h1>
+            <p class="about-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates cum non expedita amet excepturi animi quidem fa.</p>
+        </div>
+        <div class="about-card"> <!-- cards container -->
+            <ul class="card-list"> <!-- card list -->
+                <li class="card" id="primeiro-card" onclick="primeiro()"> <!-- card -->
+                    <a href="#text-card-primeiro" class="link">
+                        <i class="fas fa-user-check"></i>
+                        Simplicity
+                        <span class="number">1</span>
+                    </a>
+                </li>
+                <li class="card" id="segundo-card" onclick="segundo()"> <!-- card -->
+                    <a href="#text-card-segundo" class="link-mudar">
+                        <i class="fas fa-check"></i>
+                        Complete
+                        <span class="number">2</span>
+                    </a>
+                </li>
+                <li class="card" id="terceiro-card" onclick="terceiro()"> <!-- card -->
+                    <a href="#text-card-terceiro" class="link-mudar">
+                        <i class="fas fa-cogs"></i>
+                        Elegant 
+                        <span class="number">3</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- About card texts -->
+    <section class="card-texts-cont"> <!-- all-->
+        <div class="card-text" id="text-card-primeiro"> <!-- Card 1 -->
+            <div class="card-text-left"> <!-- textos -->
+                <h3>Simple and Intuitive interface</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat 
+                    laboriosam unde iusto architecto deleniti quam eligendi voluptatem quia facilis? 
+                    In sit fugit pariatur aperiam.  
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat 
+                    laboriosam unde iusto architecto deleniti quam eligendi voluptatem quia facilis? 
+                    In sit fugit pariatur aperiam. 
+                </p>
+            </div>
+            <div class="card-img"> <!-- imagem -->
+                <img src="img/imagem-card-1.png" alt="img-left">
+            </div>
+        </div>
+        <div class="card-text" id="text-card-segundo"> <!-- Card 2 -->
+            <div class="card-text-left">
+                <h3>The necessary and much more</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat 
+                    laboriosam unde iusto architecto deleniti quam eligendi voluptatem quia facilis? 
+                    In sit fugit pariatur aperiam.  
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat 
+                    laboriosam unde iusto architecto deleniti quam eligendi voluptatem quia facilis? 
+                    In sit fugit pariatur aperiam. 
+                </p>
+            </div>
+            <div class="card-img"> <!-- imagem -->
+                <img src="img/imagem-card-2.png" alt="img-left-two" id="img-card2">
+            </div>
+        </div>
+        <div class="card-text" id="text-card-terceiro"> <!-- Card 2 -->
+            <div class="card-text-left">
+                <h3>Attractive and simple design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat 
+                    laboriosam unde iusto architecto deleniti quam eligendi voluptatem quia facilis? 
+                    In sit fugit pariatur aperiam.  
+                </p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis fugiat 
+                    laboriosam unde iusto architecto deleniti quam eligendi voluptatem quia facilis? 
+                    In sit fugit pariatur aperiam. 
+                </p>
+            </div>
+            <div class="card-img"> <!-- imagem -->
+                <img src="img/imagem-card-3.png" alt="img-left-tres" id="img-card3">
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Download -->
+    <section class="download" id="download-section" data-animacao="top"> <!-- all -->
+        <div class="download-texts"> <!-- textos -->
+            <h3>download now</h3>
+            <h1>Available for <span>all</span> devices</h1>
+        </div>
+        <div class="btn-cont"> <!-- botoes -->
+            <button id="btn-android">
+                <a href="#"> <!-- android -->
+                    <i class="fab fa-android"></i>
+                    <p id="android-p">download for android</p>
+                </a>
+            </button>
+            <button id="btn-ios">
+                <a href="#"> <!-- ios -->
+                    <i class="fab fa-apple"></i>
+                    <p>download for ios</p>     
+                </a>
+            </button>
+        </div>
+    </section>
+
+    
+    <!-- Contact us -->
+    <section class="contact" id="contact-section"> <!-- all -->
+        <div class="contact-text"> <!-- textos -->
+            <h1>Our team</h1>
+        </div>
+        <div class="contact-cards"> <!-- cards -->
+            <!-- card 1 -->
+            <div class="perfil"> 
+                <div class="contact-img"> <!-- imagem -->
+                    <img src="img/garoto1.jpg" alt="imagem1">
+                </div>
+                <ul class="contact-social"> <!-- icones -->
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="contact-detalhes"> <!-- detalhes -->
+                    <h1>
+                        Marcus Vinicius
+                        <br>
+                        <span class="job">Web Developer</span>
+                    </h1>
+                </div>
+            </div> 
+            <!-- card 2 -->
+            <div class="perfil"> 
+                <div class="contact-img"> <!-- imagem -->
+                    <img src="img/garoto2.jpg" alt="imagem2">
+                </div>
+                <ul class="contact-social"> <!-- icones -->
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-twitch"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="contact-detalhes"> <!-- detalhes -->
+                    <h1>
+                        Luiz Gustavo
+                        <br>
+                        <span class="job">Back-end Developer</span>
+                    </h1>
+                </div>
+            </div> 
+            <!-- card 3 -->
+            <div class="perfil"> 
+                <div class="contact-img"> <!-- imagem -->
+                    <img src="img/girl.jpg" alt="imagem3">
+                </div>
+                <ul class="contact-social"> <!-- icones -->
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="blank">
+                            <i class="fab fa-snapchat-ghost"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="contact-detalhes"> <!-- detalhes -->
+                    <h1>
+                        Maria Alice
+                        <br>
+                        <span class="job">UI Designer</span>
+                    </h1>
+                </div>
+            </div> 
+        </div>
+    </section>
+    
+
+    <!-- Footer -->
+    
+
+    
+
+<!-- Scripts -->
+<script src="js/script.js"></script>
+
+
+</body>
+</html>
