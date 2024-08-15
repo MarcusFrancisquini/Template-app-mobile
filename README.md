@@ -1,10 +1,10 @@
 # RPG GUIDE
 
-<p>O template do site tem como intuito divulgar um aplicativo para celular (disponível para Android e IOS) que explica diversas coisas sobre os RPGs, como por exemplo, o que são as classes, como funcionam os turnos e etc.</p>
+<p>O template da página tem como intuito divulgar um aplicativo para celular (disponível para Android e IOS), e também conta com alguns efeitos de aparições de elementos ao dar scroll na página. </p>
 
 <br>
 
-🚨 O aplicativo <b>ainda</b> não existe! 
+🚨 As imagens e fotos utilizadas <b>não</b> possuem direitos autorais!
 
 🖥 Veja o template aqui -> <a href="https://marcusfrancisquini.github.io/RPG-Guide/">marcusfrancisquini.github.io/RPG-Guide</a>
 
