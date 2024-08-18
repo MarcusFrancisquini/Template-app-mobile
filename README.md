@@ -6,7 +6,7 @@
 
 🚨 As imagens e fotos utilizadas <b>não</b> possuem direitos autorais!
 
-🖥 Veja o template aqui -> <a href="https://marcusfrancisquini.github.io/RPG-Guide/">marcusfrancisquini.github.io/RPG-Guide</a>
+🖥 Veja o template aqui -> <a href="https://marcusfrancisquini.github.io/Template-app-mobile/">marcusfrancisquini.github.io/Template-app-mobile</a>
 
 <br>
 <br>
