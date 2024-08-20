@@ -1,6 +1,6 @@
 # Template de página web
 
-<p>O template tem como intuito divulgar um aplicativo para celular (disponível para Android e IOS), e também conta com alguns efeitos de aparições de elementos ao dar scroll na página. </p>
+<p>O template tem como intuito divulgar um aplicativo para celular (disponível para Android e IOS), e também conta com alguns efeitos de aparições de elementos ao dar scroll na página. Além de seu design simples e elegante.</p>
 
 <br>
 
